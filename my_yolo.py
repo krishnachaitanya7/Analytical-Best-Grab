@@ -8,7 +8,6 @@ import sys
 import time
 import math
 from matplotlib import pyplot as plt
-
 sys.path.append("/usr/lib/python3/dist-packages")  # For rospkg dependency
 from scripts.project_constants import YOLO_CHECKPOINT
 from scripts.panda_moveit_library import FrankaOperator
